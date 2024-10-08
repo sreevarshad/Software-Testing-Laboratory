@@ -1,23 +1,20 @@
-# Ex.No: 1 Write programs in Python Language to demonstrate the working of followingconstructs with possible test cases: a) do…while b) while…do c) if …else d) switch e) for 
+Ex.No: 1 Write programs in Python Language to demonstrate the working of followingconstructs with possible test cases: a) do…while b) while…do c) if …else d) switch e) for
+DATE: 
+REGISTER NUMBER : 212222040164
+AIM:
 
-### DATE: 27/8/2024                                                                          
-### REGISTER NUMBER : 212222040035
+To write python programs for do…while, while, for, switch and if…else and test with possible test Cases
+Algorithm:
 
-### AIM:  
-To write python programs for do…while, while, for, switch and if…else and test with possible test 
-Cases 
+    Start the program.
+    Create separate files for each given program.
+    Write simple program for each construct.
+    the program with possible test cases.
+    Stop the program.
 
-### Algorithm:
-1. Start the program.
-2. Create separate files for each given program.
-3. Write simple program for each construct.
-4.  the program with possible test cases.
-5. Stop the program.
-### Program:
+Program:
+i.)do…while:
 
-### i.)do…while: 
-
-```
 def display():
      start=input("Enter a positive value for START: ")
       end=input("Enter a positive value for END: ")
@@ -33,11 +30,9 @@ def display():
       else:
         print("Enter a valid positive number.") 
   display() 
-```
 
-### ii.) while…do 
+ii.) while…do
 
-```
 start=input("Enter a positive value for START: ") 
 end=input("Enter a positive value for END: ")
 if start.isnumeric() and end.isnumeric():
@@ -49,11 +44,8 @@ if start.isnumeric() and end.isnumeric():
 else:
    print("Enter a valid positive number.")
 
-```
+iii.) switch
 
-### iii.) switch 
-
-```
 def switch():
     switcher={
  0:"even",
@@ -66,11 +58,8 @@ except ValueError:
    print("Enter a valid number.")
 switch() 
 
-```
+iv.) if else
 
-### iv.) if else
-
-```
 def compare():
   a=input("Enter a value for A: ")
   b=input("Enter a value for B: ")
@@ -86,35 +75,17 @@ def compare():
   except ValueError:
         print(“Enter a valid number.”) 
 
-```
+v.) for
 
-### v.) for
-
-```
 def iterate():
     string=input("Enter a string: ") for
     i in string:
        print(ord(i),end=" ")
 iterate() 
-```
 
+Output:
+i.)do…while:
 
-
-
-
-
-
-
-
-
-
-
-
-
-### Output:
-
-### i.)do…while: 
-```
 Positive numbers
 Enter a positive value for START: 1
 Enter a positive value for END: 4
@@ -134,11 +105,9 @@ Null input
 Enter a positive value for START:
 Enter a positive value for END:
 Enter a valid positive number. 
-```
 
+ii.) while…do
 
-### ii.) while…do 
-```
 Positive numbers
 Enter a positive value for START: 1
 Enter a positive value for END: 4
@@ -163,11 +132,8 @@ Enter a positive value for END:
 Enter a valid positive number. 
 
 
-```
+iii.) switch
 
-
-### iii.) switch 
-```
 Positive numbers
 Enter a value for N: 1
 odd
@@ -186,10 +152,8 @@ Null input
 Enter a value for N:
 Enter a valid number. 
 
-```
+iv.) if else
 
-### iv.) if else
-```
 
 Positive numbers
 Enter a value for A: 1
@@ -213,11 +177,9 @@ Null input
 Enter a value for A:
 Enter a value for B:
 Enter a valid number. 
-```
 
+v.) for
 
-### v.) for 
-```
 Characters
 Enter a string: say
 115 97 121
@@ -228,14 +190,7 @@ Enter a string: 1543
 
 Null input
 Enter a string: 
-```
 
+Result:
 
-
-
-
-
-
-
-### Result:
 Thus, the python program to demonstrate the working of given constructs is implemented and the output is verified successfully.
