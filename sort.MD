@@ -1,4 +1,4 @@
-# Ex.No: 7 Sorting. 
+# Ex.No: 7 Sorting
 
 ### DATE:                                                                        
 ### REGISTER NUMBER :  212221040159
