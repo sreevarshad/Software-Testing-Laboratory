@@ -21,7 +21,7 @@ assert add(2,3) == 6
 
 ```
 ## Output:
-![555555](https://github.com/user-attachments/assets/44dda912-8454-40bc-b127-f8037e2aec98)
+![555555](https://github.com/sreevarshad/Software-Testing-Laboratory/blob/main/Screenshot%202025-03-26%20175721.png)
 
 ## Result:
 Thus, the python program for addition is tested using pytest and executed and output is verified successfully.
