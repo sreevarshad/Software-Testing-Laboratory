@@ -175,5 +175,5 @@ Users accessibility is censured in all the ways
 
 
 ### Result:
-Thus, the ATM system specifications and reporting the various bugs is implemented and output was verified successfully
+Thus, the ATM system specifications and reporting the various bugs is implemented and output was verified successfully.
 
